@@ -23,17 +23,17 @@
 	path = cookbooks/ntp
 	url = https://github.com/opscode-cookbooks/ntp.git
 [submodule "cookbooks/nova"]
-	path = cookbooks/nova
-	url = https://github.com/rcbops-cookbooks/nova.git
+    path = cookbooks/nova
+    url = https://github.com/att-cloud/cookbook-nova.git
 [submodule "cookbooks/keystone"]
-	path = cookbooks/keystone
-	url = https://github.com/rcbops-cookbooks/keystone.git
+    path = cookbooks/keystone
+    url = https://github.com/enovance/cookbook-keystone.git
 [submodule "cookbooks/glance"]
 	path = cookbooks/glance
-	url = https://github.com/rcbops-cookbooks/glance.git
+	url = https://github.com/enovance/cookbook-glance.git
 [submodule "cookbooks/horizon"]
-	path = cookbooks/horizon
-	url = https://github.com/rcbops-cookbooks/horizon.git
+    path = cookbooks/horizon
+    url = https://github.com/att-cloud/cookbook-horizon.git
 [submodule "cookbooks/database"]
 	path = cookbooks/database
 	url = https://github.com/opscode-cookbooks/database.git
@@ -47,11 +47,11 @@
 	path = cookbooks/xfs
 	url = https://github.com/opscode-cookbooks/xfs.git
 [submodule "cookbooks/rabbitmq"]
-	path = cookbooks/rabbitmq
-	url = https://github.com/opscode-cookbooks/rabbitmq.git
+    path = cookbooks/rabbitmq
+    url = https://github.com/att-cloud/cookbook-rabbitmq.git
 [submodule "cookbooks/swift"]
 	path = cookbooks/swift
-	url = https://github.com/rcbops-cookbooks/swift.git
+	url = https://github.com/att-cloud/cookbook-swift.git
 [submodule "cookbooks/osops-utils"]
 	path = cookbooks/osops-utils
 	url = https://github.com/rcbops-cookbooks/osops-utils.git
@@ -75,7 +75,7 @@
 	url = https://github.com/rcbops-cookbooks/monit.git
 [submodule "cookbooks/graphite"]
 	path = cookbooks/graphite
-	url = https://github.com/rcbops-cookbooks/graphite.git
+	url = https://github.com/att-cloud/cookbook-graphite.git
 [submodule "cookbooks/collectd-graphite"]
 	path = cookbooks/collectd-graphite
 	url = https://github.com/rcbops-cookbooks/collectd-graphite.git
@@ -99,19 +99,19 @@
 	url = https://github.com/rcbops-cookbooks/sosreport.git
 [submodule "cookbooks/rabbitmq-openstack"]
 	path = cookbooks/rabbitmq-openstack
-	url = https://github.com/rcbops-cookbooks/rabbitmq-openstack.git
+	url = https://github.com/opscode-cookbooks/rabbitmq.git
 [submodule "cookbooks/mysql-openstack"]
 	path = cookbooks/mysql-openstack
 	url = https://github.com/rcbops-cookbooks/mysql-openstack.git
 [submodule "cookbooks/mysql"]
-	path = cookbooks/mysql
-	url = https://github.com/opscode-cookbooks/mysql
+    path = cookbooks/mysql
+    url = https://github.com/att-cloud/cookbook-mysql.git
 [submodule "cookbooks/build-essential"]
 	path = cookbooks/build-essential
 	url = https://github.com/opscode-cookbooks/build-essential
 [submodule "cookbooks/cinder"]
 	path = cookbooks/cinder
-	url = https://github.com/rcbops-cookbooks/cinder.git
+	url = https://github.com/att-cloud/cookbook-cinder.git
 [submodule "cookbooks/haproxy"]
 	path = cookbooks/haproxy
 	url = https://github.com/rcbops-cookbooks/haproxy.git
@@ -132,4 +132,7 @@
 	url = https://github.com/opscode-cookbooks/memcached.git
 [submodule "cookbooks/runit"]
 	path = cookbooks/runit
-	url = https://github.com/opscode-cookbooks/runit.git
+    url = https://github.com/opscode-cookbooks/runit.git
+[submodule "cookbooks/openstack-common"]
+    path = cookbooks/openstack-common
+    url = https://github.com/att-cloud/cookbook-openstack-common.git
